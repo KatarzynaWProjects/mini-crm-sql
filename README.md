@@ -51,4 +51,4 @@ W folderze znajdują się:
 
 ---
 
-🖋Projekt stworzony przez Katarzynę Wróblewską jako część nauki SQL i przygotowań do pracy z danymi.
+Projekt stworzony przez Katarzynę Wróblewską jako część nauki SQL i przygotowań do pracy z danymi.
