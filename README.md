@@ -25,3 +25,20 @@ Utrwalenie umiejętności SQL i przygotowanie projektu do portfolio analityka da
 ---
 
 -- Projekt stworzony przez Katarzynę Wróblewską jako część nauki SQL i przygotowań do pracy z danymi.
+
+### ➕ Nowa część: analiza agregacji
+
+Dodatkowo projekt zawiera folder `/aggregations_orders_extended` z ćwiczeniami analitycznymi na rozszerzonej tabeli zamówień.
+
+Znajdują się tam zapytania z wykorzystaniem funkcji agregujących (`AVG`, `COUNT`, `SUM`, `MAX`) oraz filtrów `GROUP BY`, `HAVING`, `WHERE`. 
+Zastosowano m.in.:
+- analizę średnich cen wg kategorii,
+- zliczenie zamówień wg klientów i statusów,
+- sumę przychodów z realizacji,
+- porównanie ilości i wartości dostarczonych zamówień.
+
+Dołączono zrzuty wyników i kod SQL.
+
+---
+
+✅ Projekt pokazuje umiejętność pracy z danymi transakcyjnymi w SQL, ich analizy i interpretacji.
