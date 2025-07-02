@@ -1,44 +1,54 @@
-
 # mini-crm-sql
 Projekt CRM z analizą klientów i zamówień w PostgreSQL
 
-## CRM Data Analysis (PostgreSQL)
+##  CRM Data Analysis (PostgreSQL)
 
 Projekt SQL oparty na bazie klientów i zamówień (mini CRM), stworzony w celu ćwiczeń analizy danych i budowy portfolio.
 
-### Zawartość
-Plik 'crm_analysis.sql' zawiera zapytania analityczne, m.in.:
+---
+
+###  Zawartość
+
+Plik `crm_analysis.sql` zawiera zapytania analityczne, m.in.:
 - liczbę klientów według kraju,
-- klientów z anulowanymi lub błędnymi zamówieniami (np. amount ≤ 0),
+- klientów z anulowanymi lub błędnymi zamówieniami (np. `amount ≤ 0`),
 - średnią wartość zamówień na klienta,
 - klientów z więcej niż jednym zamówieniem,
 - listę zrealizowanych zamówień posortowaną malejąco wg kwoty.
 
-#### Technologie
+---
+
+###  Technologie
 - PostgreSQL
-- DBEaver
+- DBeaver
 - GitHub Desktop
 
-##### Cel
+---
+
+###  Cel
 Utrwalenie umiejętności SQL i przygotowanie projektu do portfolio analityka danych.
 
 ---
 
--- Projekt stworzony przez Katarzynę Wróblewską jako część nauki SQL i przygotowań do pracy z danymi.
+##  Rozszerzenie: Analiza agregacji
 
-### ➕ Nowa część: analiza agregacji
+Projekt zawiera dodatkowy folder `/aggregations_orders_extended`, w którym wykonano ćwiczenia z funkcjami agregującymi i filtrami grupującymi.
 
-Dodatkowo projekt zawiera folder `/aggregations_orders_extended` z ćwiczeniami analitycznymi na rozszerzonej tabeli zamówień.
+W folderze znajdują się:
+- plik `orders_aggregations.sql` z zapytaniami,
+- zrzuty ekranu z wynikami zapytań w DBeaver (`.png`).
 
-Znajdują się tam zapytania z wykorzystaniem funkcji agregujących (`AVG`, `COUNT`, `SUM`, `MAX`) oraz filtrów `GROUP BY`, `HAVING`, `WHERE`. 
-Zastosowano m.in.:
-- analizę średnich cen wg kategorii,
-- zliczenie zamówień wg klientów i statusów,
-- sumę przychodów z realizacji,
-- porównanie ilości i wartości dostarczonych zamówień.
-
-Dołączono zrzuty wyników i kod SQL.
+### Zakres analizy:
+- średnie ceny produktów wg kategorii (`AVG`, `GROUP BY`),
+- liczba zamówień na klienta (`COUNT`),
+- największa ilość zamówionego produktu (`MAX`, `ORDER BY`),
+- liczba i wartość zamówień wg statusu (`GROUP BY`, `HAVING`, `WHERE`),
+- suma wartości zamówień dla statusu `delivered`.
 
 ---
 
-✅ Projekt pokazuje umiejętność pracy z danymi transakcyjnymi w SQL, ich analizy i interpretacji.
+ Projekt pokazuje umiejętność pracy z danymi transakcyjnymi, ich grupowania i agregacji z wykorzystaniem SQL.
+
+---
+
+🖋Projekt stworzony przez Katarzynę Wróblewską jako część nauki SQL i przygotowań do pracy z danymi.
