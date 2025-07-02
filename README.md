@@ -32,7 +32,7 @@ Utrwalenie umiejętności SQL i przygotowanie projektu do portfolio analityka da
 
 ##  Rozszerzenie: Analiza agregacji
 
-Projekt zawiera dodatkowy folder `/aggregations_orders_extended`, w którym wykonano ćwiczenia z funkcjami agregującymi i filtrami grupującymi.
+Projekt zawiera dodatkowy folder `/orders_aggregation`, w którym wykonano ćwiczenia z funkcjami agregującymi i filtrami grupującymi.
 
 W folderze znajdują się:
 - plik `orders_aggregations.sql` z zapytaniami,
